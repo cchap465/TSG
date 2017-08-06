@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <title>Basic Kneads Pizzaria</title>
+    <style>
+        #navigation {
+            text-align: left;
+        }
+        h1, footer {
+            text-align: center;
+        }
+        p, img {
+            width: 500px;
+            float: middle;
+            padding-left: 30%;
+            padding-right: 30%;          
+            text-anchor: left;
+        }
+            label {
+                margin-left: 20%;
+                text-align: right;
+                padding: 5%;
+            }
+        </style>
+    </head>
+    <body>
+         <h1>Basic Kneads Pizzaria</h1> <hr />
+        <div id="navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a> <hr />
+        </div>
+        <form action="#" method="post">
+<div>
+    <label id="NameLabel" for="Name">Name: </label>
+    <input id="Name" name="Name" type="text" />
+</div>
+<div>
+    <label id="EmailLabel" for="Email">Email: </label>
+    <input id="Email" name="Email" type="text" />
+</div>
+<div>
+    <label id="PhoneLabel" for="Phone">Phone: </label>
+    <input id="Phone" name="Phone" type="text" />
+</div>
+<div>
+    <label id="ReasonLabel" for="Reason">Reason for Inquiry: </label>
+    <select name="Reason">
+        <option value="Default">Catering</option>
+        <option value="SoftwareSupport">Private Party</option>
+        <option value="HardwareSupport">Feedback</option>
+        <option value="InformationRequest">Other</option>
+    </select>
+</div>
+<div>
+    <label id="VisitLabel" for="Visit">Have you been to the Restaurant? </label>
+    <input type="radio" name="answer" value="No" checked/>No
+    <input type="radio" name="answer" value="Yes"/>Yes
+</div>
+<div>
+    <label id="AddInfoLabel" for="AddInfo">Additional Information: </label>
+    <textarea id="AddInfo" name="AddInfo"></textarea>
+</div>
+<div>
+    <label id="AddInfoLabel" for="AddInfo">Best days to contact you: </label>
+    <input type="checkbox" name="Terms" value="M" />M
+    <input type="checkbox" name="Terms" value="T" />T
+    <input type="checkbox" name="Terms" value="W" />W
+    <input type="checkbox" name="Terms" value="Th" />Th
+    <input type="checkbox" name="Terms" value="F" />F
+</div>
+<div>
+    <input type="submit" id="SubmitButton" value="Send Request" />
+</div>
+        </form>
+        <hr />
+        <p><footer>
+            556 Arrendale Lane, Akron, OH, 44685<br />
+            555-555-5555
+        </footer></p>
+            <hr />
+    </body>
+</html>
