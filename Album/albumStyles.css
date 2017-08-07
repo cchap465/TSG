@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  background-color: #00c;
+}
+body {
+                margin: 2%;
+                text-align: center;
+            }
+            table, th, td {
+                border: 1px solid black;
+                text-align: center;
+            }
+            th {
+                background: grey;
+                text-decoration: bold;
+            }
+            h1, h2 {
+  font-family: fantasy;
+            }
+ul, td {
+    font-style: italic;
+}

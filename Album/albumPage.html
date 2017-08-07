@@ -3,49 +3,54 @@
 
     <head>
         <title>Kaleidoscope</title>
+        <link rel="stylesheet" type="text/css" href="albumStyles.css">
         <style>
-            #page {
-                margin: 2%;
-                text-align: center;
+           body {
+                background-image: "albumcover.png";
             }
-            table, th, td {
-                border: 1px solid black;
-                text-align: center;
-            }
-            th {
-                background: grey;
-                text-decoration: bold;
-            }
-            </style>
+            
+</style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
+
     </head>
-<div id="page">
-    <body>
-        <img style="width: 500px" src="images/AlbumCover.png" />
+<body>
+    <img src="albumcover.png" class="img-circle" alt="Cinque Terre" width="304" height="236">
         <h1>Kaleidoscope</h1>
-        <a href="http://coldplay.com/release/kaleidoscope-ep/"><h2>Coldplay</h2></a>
+        <a href="http://coldplay.com/release/kaleidoscope-ep/"><h>Coldplay</h3></a>
         <h3>July 14, 2017</h3>
         <p>
-            Kaleidoscope is the thirteenth EP by British rock band Coldplay, released worldwide on 14 July 2017. It serves as a companion
+            Kaleidoscope is the thirteenth EP by British rock band <b>Coldplay</b>, released worldwide on 14 July 2017. It serves as a companion
             piece to Coldplay's seventh studio album, A Head Full of Dreams.
         </p>
         <hr />
-        <h2>Band Members</h2>
+        <h2>Band Members and Producers</h2>
         <ul align="left">
             <li>Chris Martin - lead vocals, piano, acoustic guitar</li>
             <li>Jonny Buckland - electric guitar</li>
             <li>Guy Berryman - bass guitar</li>
             <li>Will Champion - drums, drum pad, percussion, backing vocals</li>
         </ul>
-        <h2>Tracks</h2>
-        <table align="center">
-            <thead>
+        <h3>Tracks</h3>
+        <div class="table-responsive">
+  <table class="table table-striped">
+                    <thead>
                 <tr>
                     <th>Track #</th>
                     <th>Track Title</th>
                     <th>Track Length</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody style="background-color:aqua">
                 <tr>
                     <td>1</td>
                     <td>All I Can Think About Is You</td>
@@ -72,6 +77,7 @@
                     <td>6:31</td>
                 </tr>
             </tbody>
+  </table>
+        </div>
     </body>
-</div>
     </html>

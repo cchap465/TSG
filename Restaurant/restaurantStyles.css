@@ -1,0 +1,19 @@
+header, footer {
+            text-align: center;
+        }
+h1 {
+            font-family: Courier New, Courier, monospace;
+        }
+a 
+{
+    text-decoration: none;
+        } 
+a:hover {
+        font-weight: bold;
+        }
+a:visited {
+        color: orange;
+        }
+img {
+        align-content: center;
+        }
