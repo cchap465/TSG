@@ -1,11 +1,17 @@
 header, footer {
             text-align: center;
         }
-h1 {
-            font-family: Courier New, Courier, monospace;
+h1, h2, h3, h4, footer, p {
+            font-family: Courier New, Courier, monospace !important;
+                    color: white !important;
+                    font-weight: bold !important;
         }
-a 
-{
+p {
+        font-size: 20px;
+        text-indent: 50px
+}
+        a, nav {
+        color: white !important;
     text-decoration: none;
         } 
 a:hover {
@@ -15,5 +21,21 @@ a:visited {
         color: orange;
         }
 img {
-        align-content: center;
-        }
+text-align: center;
+width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+body {
+        background-color:  #E18F33   !important;
+        background-repeat: repeat-y;
+        background-size: 100%;
+}
+.myjumbotron {
+        background-image: url("jumbobk.png") !important;
+        color: white !important;
+}
+.myform {
+        color: forestgreen;
+        font-size: 20px;
+}

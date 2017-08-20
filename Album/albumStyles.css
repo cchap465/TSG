@@ -5,21 +5,39 @@ a:hover {
   text-decoration: underline;
   background-color: #00c;
 }
+p {
+        font-size: 20px;
+        text-indent: 50px;
+
+}
 body {
-                margin: 2%;
-                text-align: center;
+    text-align: center !important;            
+    background-image: url("bk.png") !important;
+                background-repeat: repeat-y;
+                color: #000000  !important;
+                background-size: 100%;
             }
             table, th, td {
                 border: 1px solid black;
                 text-align: center;
             }
             th {
-                background: grey;
+                background-color: lightgray;
                 text-decoration: bold;
+                color: red;
+            }
+            tbody {
+                background-color: lightsteelblue !important;
             }
             h1, h2 {
-  font-family: fantasy;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
             }
 ul, td {
     font-style: italic;
+}
+img {
+text-align: center;
+width: 30%;
+    display: block;
+    margin: 0 auto;
 }

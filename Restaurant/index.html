@@ -5,17 +5,15 @@
     <title>Basic Kneads Pizzaria</title>
     <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
     <style>
-        .bgclr {
-            background-color: lightgoldenrodyellow;
+        .carousel-inner>.item>img,
+        .carousel-inner>.item>a>img {
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            height: 570px;
         }
-          .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      margin: auto;
-      text-align: center;
-width:100%; height:570px;
-  }
-</style>
-<script src="http://code.jquery.com/jquery.js"></script>
+    </style>
+    <script src="http://code.jquery.com/jquery.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
@@ -32,7 +30,7 @@ width:100%; height:570px;
 <body>
     <noscript>Sorry, your browser does not support JavaScript or Javascript is disabled.</noscript>
     <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron myjumbotron">
             <h2>Opening New Location</h2>
             <p>We will be opening a new location in the Akron area in 2018. Stayed stuned for updates and job openings as we
                 are excited to introduce our pizza in Akron and bring in new team members to our crew.
@@ -51,17 +49,18 @@ width:100%; height:570px;
                 </ul>
             </div>
         </div>
-        <div class="row" style="text-align: left; margin: auto; width: 400px;">
-                <div class="col-md-8">
-                        <img src="images/pizza.png" class="img-rounded" alt="pizza" width="304" height="236">
-                        <p>
-                            Restaurant Description <br /> We are a small family owned restaurant in Northeast Ohio where
-                            we make the best pizza in town. If you don't believe us, stop on down for a bite and see for
-                            yourself.
-                        </p>
-                </div>
+        <div class="row" style="text-align: left; margin: auto; width: 600px;">
+            <div class="col-md-12">
+                <img src="images/pizza.png" class="img-rounded" alt="pizza" width="304" height="236">
+                <h4>Restaurant Description: </h4> <br />
+                <p>We are a small family owned restaurant in Northeast Ohio where we make the best pizza in town. If you don't
+                    believe us, stop on down for a bite and see for yourself. We are a great place to eat at if you need
+                    to watch what you eat, pun intended, as we make the pizza in a viewing area you to see the whole process
+                    of your pizza being made. Forgive us for our cheesy puns; that's just how we roll dough.
+                </p>
             </div>
-        
+        </div>
+
         <div class="row">
             <div class="col-md-12">
                 <hr />
@@ -75,58 +74,58 @@ width:100%; height:570px;
         </div>
     </div>
 
-<div class="container-fluid" style="text-align: middle; margin-left: 25%">
-    <div class="row">
-        <div class="col-md-6">
-  <br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+    <div class="container-fluid" style="text-align: middle; margin-left: 25%">
+        <div class="row">
+            <div class="col-md-6">
+                <br>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
 
-      <div class="item active">
-        <img src="images/location.png" alt="New Location">
-        <div class="carousel-caption">
-          <h3>We're opening a new location!</h3>
-          </div>
-      </div>
+                        <div class="item active">
+                            <img src="images/location.png" alt="New Location">
+                            <div class="carousel-caption">
+                                <h3>We're opening a new location!</h3>
+                            </div>
+                        </div>
 
-      <div class="item">
-        <img src="images/seasonal.png" alt="Seasonal Pizza">
-        <div class="carousel-caption">
-          <h3> We're rolling out our seasonal menu, with special options for this season.</h3>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="images/brew.png" alt="SG Brew">
-        <div class="carousel-caption">
-          <h3>The Drink of the Month is SG Special Brew.</h3>
-        </div>
-      </div>
-  
-    </div>
+                        <div class="item">
+                            <img src="images/seasonal.png" alt="Seasonal Pizza">
+                            <div class="carousel-caption">
+                                <h3> We're rolling out our seasonal menu, with special options for this season.</h3>
+                            </div>
+                        </div>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <div class="item">
+                            <img src="images/brew.png" alt="SG Brew">
+                            <div class="carousel-caption">
+                                <h3>The Drink of the Month is SG Special Brew.</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
-</div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 </body>
 
 </html>
